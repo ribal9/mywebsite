@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<header>
+    <div class="header">
+        
+        <a href="">ABOUT US
+            <br>
+            <ul class="sub-menu" hidden>
+                <li>OUR STORY</li>
+                <li>CONTACT US</li>
+                <li>FIND US</li>
+            </ul>
+        </a>
+        
+        <a href="">PRODUCT & SERVICE</a>
+        <a href="">USE CASES</a>
+        <a href="">ECOSYSTEM</a>
+        <a href="">BLOG</a>
+    </div>
+</header>
+<body>
+    <div class="city">
+        <img src="city.png" alt="">
+        <h1>Innovation...now</h1>
+    </div>
+
+    <div class="city-info">
+        <h2>PRODUCT & SERVICES</h2>
+
+        <div id="div1">
+            <p id="p1">We bring the latest innovations in the Internet of Things (IOT) to the masses. We specialize in deploying massive IoT solutions to
+                cover a wide area. With more than 20 years of experience and 1000+ projects deployed successfully, you can rest assured that your
+                investment will be worth it.</p>
+        </div>
+
+        <div>
+            <img src="image1.jpg" alt="">
+
+            <h4>Return on Investment</h4>
+            <p>
+                One of the most asked questions by our clients is "What do we benefit by investing in digital
+                transformation and by making a move towards Industry 4.02". The answer to that question is
+                simple: Visibility. By investing in IoT you'll be able to track assets in near-realtime but
+                you'll also have full access to how your supply chain is operating, where are the bottlenecks,
+                and what can be improved to make the flow smother.</p>
+        </div>
+
+        <div>
+            <img id="sub-image2" src="image2.jpg" alt="">
+
+            <h4 id="h2">Off-the-shelf and custom apps</h4>
+            <p id="p2">
+                We offer a complete solution for all you integration and IoT needs with our off-the-shelf
+                Alpwolf technology. However, our software development department can also create applications
+                and features that are tailor made according to your requrirements.
+            </p>
+            
+            <h5 id="show-more1">Read more</h5>
+        </div>
+
+        <div>
+            <img src="image3.jpg" alt="">
+            <h4>Security and High-availability</h4>
+            <p>
+                By using AlpWolf we guarantee a life-time of updates, maintenance, and support. We are actively
+                working on making our technologies and platforms more secure than ever.
+            </p>
+            
+            <h5 id="show-more2" >Read more</h5>
+        </div>
+        <footer>
+        
+        </footer>
+    
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+
+        $(".header a").hover(function(){
+
+            $(this).children(".sub-menu").fadeToggle(200);
+        })
+    });
+</script>
+</html>

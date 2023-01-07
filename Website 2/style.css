@@ -1,0 +1,139 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #1e2021;
+    
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    z-index: 1;
+}
+.header a{
+    text-decoration: none;
+    padding: 0.7rem 0;
+    flex-basis: 13rem;
+    color: white;
+}
+
+.header a:hover{
+    position: relative;
+    background-color: black;
+    opacity: 1;
+}
+
+.sub-menu{
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0.7rem;
+    width: 13rem;
+    position: absolute;
+    background-color: #181a1b;
+}
+
+.sub-menu li{
+    padding: 0.5rem 0;
+    list-style:none;
+}
+
+.sub-menu li:hover{
+    background-color: #00a9ff;
+    
+}
+
+.city{
+    position: relative;
+}
+.city img{
+    width: 100%;
+}
+.city h1{
+    color: white;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    top: 43%;
+    left: 42%;
+}
+.city-info{
+    background-color: #181a1b;
+    position: relative;
+    bottom: 4px;
+}
+
+.city-info h2{
+    margin: 0;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.city-info div{
+    width: 68%;
+    height: 146.25px;
+    margin: 0 auto;
+    color: #a8a095;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 2rem;
+    font-size: small;
+    background-color: #1e2021;
+}
+
+#div1{
+    background-color: #181a1b;
+    height: auto;
+}
+
+#p1{
+    color: #757575;
+}
+
+.city-info img{
+    float: left;
+    padding-right: 1rem;
+    width: 260px;
+}
+
+.city-info h4{
+    padding-top: 1rem;
+    color: white;
+}
+
+#sub-image2{
+    float:right;
+    padding-right: 0;
+    padding-left: 1rem;
+}
+
+#h2, #p2{
+    text-align: right;
+    padding-left: 1rem;
+}
+
+#show-more1{
+    text-align: right;
+    color: white;
+    text-decoration: underline;
+}
+
+#show-more2{
+    color: white;
+    text-decoration: underline;
+}
+
+footer{
+    height:1rem;
+    background-color: #181a1b;
+}
